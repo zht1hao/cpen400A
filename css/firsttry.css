@@ -1,0 +1,71 @@
+body {
+	width: 1000px;
+}
+#header{
+	font:"Times New Roman";
+}
+#logo{
+	height:200px;
+	width:200px;
+	background-color:gray;
+	float: left;
+}
+#welcomeBanner{
+	height:200px;
+	width:780px;
+	background-color:gray;
+	float:right;	
+}
+#mainContant{
+	overflow:scroll
+}
+#navigationMenu{
+	width: 200px;
+	float: left;
+	margin-right:20px
+	margin-top:20px
+}
+li{
+	display:block;
+	padding:20px;
+	font-size:20;
+	background:green;
+}
+li:hover{
+	background:#ff22ff;
+	color:#eeffee;
+}
+#productList{
+	float: left;
+	width: 780px;
+	background:white;
+}
+.product{
+	float:left;
+	text-align: center;
+	width:370px;
+	margin:10px;
+	overflow: hidden
+	
+}
+.product img{
+	width: 95%;
+}
+
+.product:hover{
+	background: gray;
+}
+.product #price{
+	visibility:hidden;
+}
+.product:hover #price{
+    visibility:visible;
+}
+
+#footer{
+	margin-top: 15px;
+	background: gray;
+	text-align: center;
+	line-height: 70px;
+}
+
